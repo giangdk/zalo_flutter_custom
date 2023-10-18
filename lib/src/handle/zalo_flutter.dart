@@ -12,7 +12,7 @@ class ZaloFlutter {
   ZaloFlutter._();
   static const MethodChannel channel = MethodChannel('zalo_flutter');
 
-  static Duration _timeout = const Duration(seconds: 120);
+  static Duration _timeout = const Duration(seconds: 180);
 
   /// Set timeout
   static void setTimeout(Duration timeout) {
